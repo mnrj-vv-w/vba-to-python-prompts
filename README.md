@@ -18,7 +18,7 @@ It helps automate spreadsheet tasks with openpyxl or pandas, and is ideal for bo
 - 🔁 VBAマクロ → Python変換の実用テンプレート
 - 🧠 ChatGPTに貼るだけでOKなフォーマット
 - 📄 業務フローを意識したサンプル集
-- 💬 今後の自動化ツール・SaaS展開を見据えた基礎素材
+- 💬 今後の自動変換ツール・SaaS展開を見据えた基礎素材
 
 ---
 
@@ -38,6 +38,12 @@ It helps automate spreadsheet tasks with openpyxl or pandas, and is ideal for bo
 
 ---
 
-## 🏷 推奨トピックタグ（GitHub Topics）
+## 🙌 ご意見・コラボ歓迎！
 
+テンプレート追加提案や改善リクエストはお気軽に [Issue](https://github.com/あなたのリポジトリ名/issues) へどうぞ。  
+「自動変換Webツール版」の開発にも興味がある方は、ぜひご連絡ください！
+
+---
+
+## 🏷 推奨 GitHub Topics
 
