@@ -40,7 +40,7 @@ It helps automate spreadsheet tasks with openpyxl or pandas, and is ideal for bo
 
 ## 🙌 ご意見・コラボ歓迎！
 
-テンプレート追加提案や改善リクエストはお気軽に [Issue](https://github.com/あなたのリポジトリ名/issues) へどうぞ。  
+テンプレート追加提案や改善リクエストはお気軽に [Issue](https://github.com/vba-to-python-prompts/issues) へどうぞ。  
 「自動変換Webツール版」の開発にも興味がある方は、ぜひご連絡ください！
 
 ---
