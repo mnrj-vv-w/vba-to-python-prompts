@@ -20,6 +20,35 @@ It helps automate spreadsheet tasks with openpyxl or pandas, and is ideal for bo
 - 📄 業務フローを意識したサンプル集
 - 💬 今後の自動変換ツール・SaaS展開を見据えた基礎素材
 
+### 🔸 VBAマクロコード（例）
+```vba
+# "Sheet1" を選択して名前を変更
+# Select "Sheet1" and rename it
+Sheets("Sheet1").Select
+ActiveSheet.Name = "処理済"
+Sheets.Add.Name = "新規シート"
+Sheets("Sheet2").Delete
+```
+### 🔸 Pythonコード（ChatGPT変換後）
+```python
+from openpyxl import load_workbook
+
+wb = load_workbook("sample.xlsx")
+
+# 「Sheet1」を選択して名前を変更
+# Select "Sheet1" and rename it
+ws = wb["Sheet1"]
+ws.title = "処理済"
+
+# 新しいシートを追加（最後尾に追加される）
+new_sheet = wb.create_sheet(title="新規シート")
+
+# 指定シートを削除
+del wb["Sheet2"]
+
+wb.save("sample.xlsx")
+```
+
 ---
 
 ## 🛠 Use Case / 使い方
